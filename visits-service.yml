@@ -18,5 +18,5 @@ server:
   port: 8082
 eureka:
   client:
-    serviceUrl:
-      defaultZone: http://discovery-server:8761/eureka/
+    service-url:
+      default-zone: http://discovery-server:8761/eureka/
